@@ -3,5 +3,4 @@
   tasks:
     - name: print facts
       debug:
-        msg: "IPv4 address: {{ ansible_default_ipv4.address }}"
-        msg: "BIOS Version: {{ amsible_bios_version }}"
+        msg: "IPv4 address: {{ ansible_default_ipv4.address }} \nBIOS Version: {{ ansible_bios_version }}"
