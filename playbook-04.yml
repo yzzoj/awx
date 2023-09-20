@@ -1,8 +1,7 @@
 ---
-- hosts: all
+- hosts: anss
   tasks:
     - name: print facts
       debug:
         msg: "IPv4 address: {{ ansible_default_ipv4.address }}"
-      debug:
-        msg: "B vVersion: {{ amsible_bios_version }}"
+        msg: "BIOS Version: {{ amsible_bios_version }}"
